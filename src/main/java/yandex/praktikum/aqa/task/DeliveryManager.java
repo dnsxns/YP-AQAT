@@ -85,8 +85,4 @@ public class DeliveryManager {
         return resultCost.setScale(2, BigDecimal.ROUND_FLOOR);
     }
 
-    public static void main(String[] args) throws InvalidDeliveryException {
-       new DeliveryManager().getCost(100, GoodsDimension.LITTLE, false, 100);
-    }
-
 }
