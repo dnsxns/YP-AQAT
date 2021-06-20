@@ -1,0 +1,1 @@
+Test task solution for Yandex Praktikum
